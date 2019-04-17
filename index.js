@@ -151,7 +151,7 @@ LUDZ.on('message', message => {
           message.channel.send(message.author.id + "\n" + message.author.username);
         }
 
-      } else if (isCmd('xp')) {
+      } else if (isCmd('credit')) {
         try {
           if (content[1]) {
             content[1] = content[1].replace(/\D/g, '');
@@ -180,7 +180,7 @@ LUDZ.on('message', message => {
           message.channel.send("try this :" + prefix + "level @user");
           console.log(err);
         }
-      } else if (isCmd('credit')) {
+      } else if (isCmd('pay')) {
         try {
           content[1] = content[1].replace(/\D/g, '');
           if (content[1]) {
@@ -292,7 +292,7 @@ LUDZ.on('message', message => {
           message.channel.send("use : #loot @user points \nfor example : #loot #ludz 400");
         }
       }
-      else if (isCmd('creditRole')) {
+      else if (isCmd('payrole')) {
         try {
           content[1] = content[1].replace(/\D/g, '');
           console.log(content[1]);
