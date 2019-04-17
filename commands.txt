@@ -1,0 +1,18 @@
+-help                 for seeing commands
+-xp                   to see how much credits you have.
+-xp @user             to see another users's credit 
+-avatar               to view your profile image 
+-avatar @user         to view user image
+-credit @user 123     a bank transfer from your account to another account
+-creditRole @user 123 a give credit to a role 
+-top                  see top 10 in the server 
+-stars                see how much stars you have.
+-stars @user          see how much stars a user have.
+-pt @user  2          give stars to user - only used by the admins -
+-ptRole @role  2      give stars to role - only used by the admins -
+-adminize  @user 2    give someone a role with the number -the smaller the number the more privileges he has- starts from 1.
+-loot @user 400       take credit by force from a user - admin use only -
+-ptloot @user 12      take stars by force from a user - admin use only - 
+-lootRole @role 13    take credit by force from a role - admin use only -
+-ptloot @user 12      take stars by force from a user - admin use only - 
+-ptlootRole @role 12  take stars by force from a Role - admin use only - 
